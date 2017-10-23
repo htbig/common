@@ -4,7 +4,7 @@ type Lock struct {
 	channel chan int
 	client  string
 }
-a int;
+
 func (lock *Lock) TryLock(lockerClient string) (bool, string) {
 	select {
 	case lock.channel <- 0:
