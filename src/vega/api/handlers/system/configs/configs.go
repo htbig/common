@@ -7,7 +7,7 @@ import (
 
 	"vega/api/handlers"
 	"vega/core"
-	"vega/syslogger"
+	"github.com/htbig/common/src/vega/syslogger"
 )
 
 func GetDefault(ctx handlers.Context) {

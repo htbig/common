@@ -4,7 +4,7 @@ package main
 
 import (
 	"vega/api/handlers"
-	"vega/api/handlers/aaa/radius"
+	"github.com/htbig/common/src/vega/api/handlers/aaa/radius"
 )
 
 func localRoutes(ctx handlers.Context) map[string]map[string]handler {

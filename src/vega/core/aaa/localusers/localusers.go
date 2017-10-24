@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
-	"vega/syslogger"
+	"github.com/htbig/common/src/vega/syslogger"
 )
 
 const (

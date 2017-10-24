@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"strconv"
-	"vega/syslogger"
+	"github.com/htbig/common/src/vega/syslogger"
 
 	"github.com/kirves/goradius"
 )

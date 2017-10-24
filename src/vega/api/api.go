@@ -12,13 +12,13 @@ import (
 	"sort"
 	"strings"
 
-	"vega/api/auth"
+	"github.com/htbig/common/src/vega/api/auth"
 	"vega/api/handlers"
-	"vega/api/locker"
-	"vega/api/tasks"
+	"github.com/htbig/common/src/vega/api/locker"
+	"github.com/htbig/common/src/vega/api/tasks"
 	"vega/core"
 	"vega/core/aaa/radius"
-	"vega/syslogger"
+	"github.com/htbig/common/src/vega/syslogger"
 
 	"github.com/julienschmidt/httprouter"
 )

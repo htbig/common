@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"vega/core/util"
-	"vega/core/util/cfg"
-	"vega/syslogger"
+	"github.com/htbig/common/src/vega/core/util"
+	"github.com/htbig/common/src/vega/core/util/cfg"
+	"github.com/htbig/common/src/vega/syslogger"
 )
 
 const (

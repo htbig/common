@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strconv"
 	"strings"
-	"vega/api/auth"
+	"github.com/htbig/common/src/vega/api/auth"
 	"vega/api/handlers"
 	"vega/core/aaa/radius"
 )
